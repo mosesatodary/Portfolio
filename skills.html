@@ -1,0 +1,123 @@
+<!-- skills.html -->
+<html>
+  <head>
+    <title>My Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .skill-card {
+        width: 300px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .skill-card h3 {
+        margin-bottom: 10px;
+      }
+      .skill-card p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #666;
+      }
+      .progress-bar {
+        width: 100%;
+        height: 8px;
+        background-color: #e6f2ff;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-top: 10px;
+      }
+      .progress-fill {
+        height: 100%;
+        background-color: #0073e6;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Skills</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="aspirations.html">Aspirations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+      <section>
+        <h2>Skills Overview</h2>
+        <p>
+          Over the years, I've honed a diverse set of technical skills that enable me to tackle complex challenges and innovate
+          in the field of Information Technology. From programming at a low level to full-stack web development, here’s a showcase of my expertise.
+        </p>
+      </section>
+      
+      <!-- Skills Cards -->
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>C++</h3>
+          <p>
+            Proficient in developing efficient, optimized applications with an emphasis on object-oriented programming and system-level design.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <h3>C</h3>
+          <p>
+            Experience in low-level programming, memory management, and hardware-software interactions using C programming language.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <h3>Intel Assembly</h3>
+          <p>
+            Understanding of assembly language to analyze and optimize system-level functionality, bridging software and hardware.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <h3>Full Stack Web Development</h3>
+          <p>
+            Proficient in creating responsive and user-centered designs using HTML, CSS, JavaScript, and backend technologies like Node.js.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <h3>Version Control Systems</h3>
+          <p>
+            Skilled in using tools like Git and GitHub for efficient collaboration, code versioning, and repository management.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2025 Moses' Portfolio</p>
+    </footer>
+  </body>
+</html>

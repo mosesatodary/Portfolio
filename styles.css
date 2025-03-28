@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #e6f2ff; /* Light blue background */
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Ensure the footer stays at the bottom */
+  }
+  
+  header {
+	background: linear-gradient(90deg, #0073e6, #3399ff); /* Blue gradient */
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+	background: #004080;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+  }
+  
+  nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s;
+  }
+  
+  nav a:hover {
+	color: #66b3ff;
+  }
+  
+  main {
+	flex: 1; /* Pushes the footer to the bottom */
+	padding: 20px;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 10px;
+	background: #004080;
+	color: white;
+	position: sticky;
+	bottom: 0;
+  }
